@@ -1,0 +1,28 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Categories</title>
+</head>
+<body>
+  <h1>Select a Category</h1>
+  <button onclick="redirectToCategory('mens')">Men's</button>
+  <button onclick="redirectToCategory('womens')">Women's</button>
+  <button onclick="redirectToCategory('accessories')">Accessories</button>
+
+  <script>
+    function redirectToCategory(category) {
+      window.location.href = `products.html?category=${category}`;
+    }
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+

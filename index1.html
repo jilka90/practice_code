@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Select Category</title>
+</head>
+<body>
+  <h1>Select a Category</h1>
+
+  <button onclick="redirectToCart('mens')">Men</button>
+  <button onclick="redirectToCart('womens')">Women</button>
+  <button onclick="redirectToCart('accessories')">Accessories</button>
+
+  <script>
+    function redirectToCart(category) {
+      window.location.href = `cart.html?category=${category}`;
+    }
+  </script>
+</body>
+</html>
+

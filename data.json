@@ -1,0 +1,34 @@
+
+ {
+  "products": [
+    {
+      "mens": [
+        {
+          "id": 1,
+          "title": "Rainbow logo tee",
+          "description": "Compromise tee",
+          "price": 549,
+          "thumbnail": "https://store.figma.com/cdn/shop/products/Figma-Store-1096_1000x.jpg?v=1636599836"
+        }
+      ],
+      "womens": [
+        {
+          "id": 4,
+          "title": "Framework tee",
+          "description": "Pixel power shirt",
+          "price": 1249,
+          "thumbnail": "https://store.figma.com/cdn/shop/products/figma-store_framework-tee_01_1000x.jpg?v=1670515454"
+        }
+      ],
+      "accessories": [
+        {
+          "id": 8,
+          "title": "Toolkit mug",
+          "description": "For coders and designers",
+          "price": 499,
+          "thumbnail": "https://store.figma.com/cdn/shop/products/figma-store_tool-kit-mug_01_1000x.jpg?v=1670520016"
+        }
+      ]
+    }
+  ]
+}
